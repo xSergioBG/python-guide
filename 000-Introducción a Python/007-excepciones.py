@@ -19,8 +19,8 @@ def main():
         print("Error: Ingrese solo números enteros.")
     except ZeroDivisionError:
         print("Error: No se puede dividir entre cero.")
-    except Exception as e:
-        print("Error:", e)
+    except Exception as exception:
+        print("Error:", exception)
 
     # Ejemplo de excepción personalizada
     try:
@@ -28,8 +28,8 @@ def main():
         if len(nombre) < 3:
             raise ValueError("El nombre debe tener al menos 3 caracteres.")
         print("Hola,", nombre + "!")
-    except ValueError as ve:
-        print("Error:", ve)
+    except ValueError as value_exception:
+        print("Error:", value_exception)
 
 if __name__ == "__main__":
     main()
