@@ -1,4 +1,4 @@
-# 003-condicionales.py
+# condicionales.py
 
 """
 Este programa muestra ejemplos de uso de condicionales en Python.

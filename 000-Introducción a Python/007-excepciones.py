@@ -1,4 +1,4 @@
-# 007-excepciones.py
+# excepciones.py
 
 """
 Este programa muestra ejemplos de manejo de excepciones en Python.
